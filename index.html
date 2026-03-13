@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CSS</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Crie uma conta</h1>
+    </header>
+
+    <form class="form-container" action="./sucess.html">
+      <div class="form-row">
+        <label for="FullName" class="form-label"> Nome Completo</label>
+        <input
+          id="FullName"
+          type="text"
+          class="form-input"
+          placeholder="Digite seu nome comnpleto"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="Email" class="form-label">Email</label>
+        <input
+          id="Email"
+          type="text"
+          class="form-input"
+          placeholder="Digite seu e-mail..."
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="password" class="form-label">Senha</label>
+        <input
+          id="password"
+          type="text"
+          class="form-input"
+          placeholder="Digite sua senha"
+          required
+        />
+      </div>
+
+      <div class="form-row">
+        <label for="brithdate" class="form-label">Data de Nascimento</label>
+        <input id="brithdate" type="date" class="form-input" required />
+      </div>
+
+      <div class="form-row">
+        <label form="gender" class="form-label">Genero</label>
+        <select id="gender" name="gender" class="form-input" required>
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <input id="privacy" type="checkbox" class="form-checkbox" required />
+        <label for="privacy">Aceito as políticas de privacidade</label>
+      </div>
+
+      <div class="form-row">
+        <input type="submit" value="Criar conta" class="form-button" required />
+      </div>
+    </form>
+  </body>
+</html>
