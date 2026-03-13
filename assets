@@ -1,0 +1,27 @@
+# 📋 Formulário de Cadastro de Usuários
+
+![Formulário de Cadastro](./assets/imagem.png)
+
+## 📌 Sobre o Projeto
+
+Formulário de cadastro de usuários desenvolvido com HTML e CSS puro.
+
+## 🚀 Tecnologias
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## 📂 Como usar
+
+1. Clone o repositório:
+bash
+git clone https://github.com/CleberYan/formulario.git
+
+
+2. Abra o arquivo index.html no navegador.
+
+## 👨‍💻 Autor
+
+Feito por *Cleber Yan*
+
+[![GitHub](https://img.shields.io/badge/GitHub-CleberYan-181717?style=for-the-badge&logo=github)](https://github.com/CleberYan)
